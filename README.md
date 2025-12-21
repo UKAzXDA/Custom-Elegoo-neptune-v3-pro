@@ -1,8 +1,4 @@
 # 🖨️ Custom G-Codes (PrusaSlicer / OrcaSlicer)
-
-Este repositório contém scripts de **Start G-code** e **End G-code** otimizados para impressão 3D.
-O código inicial possui uma rotina personalizada "YLU" que pré-aquece, faz o nivelamento e viaja rapidamente até o local exato onde a peça (ou saia) começará, aguardando 6 segundos para estabilização antes de iniciar.
-
 > **Compatibilidade:** PrusaSlicer, SuperSlicer, OrcaSlicer.
 
 ---
@@ -32,7 +28,7 @@ G92 E0                    ; Zera de novo
 G4 S6                     ; Senta e espera 6 segundos na posição de início
 ;YLU ------------------------------------------------------------------
 ## 🚀 Start G-code (Final)
-
+```
 Copie e cole este bloco na seção **Printer Settings > Custom G-code > Start G-code**.
 
 ```gcode
@@ -45,3 +41,4 @@ M84 X Y E                 ; Desabilita motores
 G4 S300                   ; Espera 5 min
 M107                      ; Desliga fan
 ;YLU -------------------------------------------------------------------
+```
