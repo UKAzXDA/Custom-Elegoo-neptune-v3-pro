@@ -27,8 +27,9 @@ G1 E2 F1000               ; Extruda 2mm parado para preparar o bico (purge inici
 G92 E0                    ; Zera de novo
 G4 S6                     ; Senta e espera 6 segundos na posição de início
 ;YLU ------------------------------------------------------------------
-## 🚀 Start G-code (Final)
 ```
+## 🚀 Start G-code (Final)
+
 Copie e cole este bloco na seção **Printer Settings > Custom G-code > Start G-code**.
 
 ```gcode
