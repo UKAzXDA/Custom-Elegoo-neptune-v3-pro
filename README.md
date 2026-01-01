@@ -1,4 +1,4 @@
-
+<img src="elegoo.webp">
 
 ## 🛠️ 2. Scripts de Pós-Processamento (Regex)
 
