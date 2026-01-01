@@ -1,5 +1,3 @@
-# 🖨️ Configuração de Impressão - Perfil YLU
-
 ## 💾 1. Configurações de Saída
 
 **Padrão de nome do arquivo:**
@@ -38,9 +36,9 @@ G1 Z.2 F9000
 ### ▶️ G-code de Início
 ```gcode
 ;YLU ------------------------------------------------------------------
-M106 S128                 ; Ligar fan 100% (PWM 128)
-M104 S[first_layer_temperature] ; bico
-M140 S[first_layer_bed_temperature] ; mesa
+M107                      ; Desliga fan
+M104 S[first_layer_temperature] ; Aquecimento bico
+M140 S[first_layer_bed_temperature] ; Aquecimento mesa
 G90                       ; Usa coordenadas absolutas
 M83                       ; Extrusora em modo relativo
 G28                       ; Homing de todos os eixos
@@ -57,7 +55,7 @@ G92 E0                    ; Zera o extrusor
 ;YLU ------------------------------------------------------------------
 M140 S0                   ; Desliga aquecimento da mesa
 M104 S0                   ; Desliga bico
-M106 S128                 ; Ligar fan 100% (Resfriamento)
+M106 S128                 ; Ligar fan 100%
 G1 X-2.5 F12000           ; Cabeçote para posição de garagem
 M84 X Y E                 ; Desabilita motores
 G4 S600                   ; Espera 10 min
