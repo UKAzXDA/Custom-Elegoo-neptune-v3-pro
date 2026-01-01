@@ -1,6 +1,6 @@
 <img src="elegoo.webp">
 
-## 🛠️ Scripts de Pós-Processamento (Regex)
+## 🛠️ Pós-Processamento (Regex)
 
 💉 Configurações de Localizar e Substituir para o fatiador.
 
