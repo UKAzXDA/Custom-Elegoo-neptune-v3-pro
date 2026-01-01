@@ -66,7 +66,7 @@ M107                      ; Desliga fan
 | **Largura da Aba** | 2 mm |
 | **Espaçamento da Borda** | 0,2 mm |
 
-## 💾 1. Configurações de Saída
+### 💾 Configurações de Saída.
 
 **Padrão de nome do arquivo:**
 `{input_filename_base}_{print_time}.gcode`
