@@ -1,6 +1,6 @@
 <img src="elegoo.webp">
 
-## 🛠️ 2. Scripts de Pós-Processamento (Regex)
+## 🛠️ Scripts de Pós-Processamento (Regex)
 
 💉 Configurações de Localizar e Substituir para o fatiador.
 
@@ -26,7 +26,7 @@ G1 Z.2 F9000
 
 ---
 
-## ⚙️ 3. G-code Customizado
+## ⚙️ G-code Customizado
 
 ### ▶️ G-code de Início
 ```gcode
