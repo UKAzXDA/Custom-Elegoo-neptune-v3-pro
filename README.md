@@ -22,11 +22,14 @@ G1 Z.2 F9000
 ```
 
 ### 💉 Regra 2: Injeção antes da Aba (Brim)
-* **🔍 Achar:** `;TYPE:Skirt/Brim`
+* **🔍 Achar:**
+```text
+;TYPE:Skirt/Brim
+```
 * **✏️ Substituir:**
-    ```text
-    ;YLU --\nG1 Z.2 F9000\n;G1 E1 F2400\nG4 S5\n;YLU --
-    ```
+```text
+;YLU --\nG1 Z.2 F9000\n;G1 E1 F2400\nG4 S5\n;YLU --
+```
 
 ---
 
