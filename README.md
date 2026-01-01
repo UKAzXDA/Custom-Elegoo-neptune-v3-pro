@@ -24,10 +24,6 @@ G1 Z.2 F9000
 ;YLU --\nG1 Z.2 F9000\n;G1 E1 F2400\nG4 S5\n;YLU --
 ```
 
----
-
-## ⚙️ G-code Customizado
-
 ### ▶️ G-code de Início
 ```gcode
 ;YLU ------------------------------------------------------------------
@@ -57,6 +53,7 @@ G4 S600                   ; Espera 10 min
 M107                      ; Desliga fan
 ;YLU ------------------------------------------------------------------
 ```
+
 ### 🧲 Abaixo estão os parâmetros de adesão à mesa utilizados neste perfil.
 
 | Parâmetro | Valor |
@@ -69,6 +66,6 @@ M107                      ; Desliga fan
 ### 💾 Configurações de Saída.
 
 **Padrão de nome do arquivo:**
-`{input_filename_base}_{print_time}.gcode`
-
----
+```text
+{input_filename_base}_{print_time}.gcode
+```
