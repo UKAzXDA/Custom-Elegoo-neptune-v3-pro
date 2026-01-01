@@ -1,9 +1,5 @@
 # 🖨️ Configuração de Impressão - Perfil YLU
 
-📄 Documentação dos parâmetros de G-code, scripts de pós-processamento e ajustes de aderência.
-
----
-
 ## 💾 1. Configurações de Saída
 
 **Padrão de nome do arquivo:**
@@ -16,7 +12,7 @@
 Configurações de Localizar e Substituir para o fatiador.
 
 ### ⚡ Regra 1: Ajuste de Velocidade Z
-* **🔍 Achar:** `G1 Z.2 F9000`
+* **🔍 Achar:** ```textG1 Z.2 F9000```
 * **✏️ Substituir:**
     ```text
     ;YLU --\nG1 F12000\n;YLU --
