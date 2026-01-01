@@ -1,9 +1,4 @@
-## 💾 1. Configurações de Saída
 
-**Padrão de nome do arquivo:**
-`{input_filename_base}_{print_time}.gcode`
-
----
 
 ## 🛠️ 2. Scripts de Pós-Processamento (Regex)
 
@@ -70,3 +65,10 @@ M107                      ; Desliga fan
 | **Tipo de Aba (Brim)** | Somente aba externa |
 | **Largura da Aba** | 2 mm |
 | **Espaçamento da Borda** | 0,2 mm |
+
+## 💾 1. Configurações de Saída
+
+**Padrão de nome do arquivo:**
+`{input_filename_base}_{print_time}.gcode`
+
+---
