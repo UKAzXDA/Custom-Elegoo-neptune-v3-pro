@@ -2,9 +2,9 @@
 
 ## 🛠️ Pós-Processamento (Regex)
 
-💉 Configurações de Localizar e Substituir para o fatiador.
+💉 Localizar e Substituir para o fatiador.
 
-### 💉 Regra 1: Ajuste de Velocidade Z
+### 💉 Regra 1:
 * **🔍 Achar:**
 ```text
 G1 Z.2 F9000
@@ -14,7 +14,7 @@ G1 Z.2 F9000
 ;YLU --\nG1 F12000\n;YLU --
 ```
 
-### 💉 Regra 2: Injeção antes da Aba (Brim)
+### 💉 Regra 2:
 * **🔍 Achar:**
 ```text
 ;TYPE:Skirt/Brim
