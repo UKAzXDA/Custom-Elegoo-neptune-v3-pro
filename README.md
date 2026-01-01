@@ -7,9 +7,9 @@
 
 ## 🛠️ 2. Scripts de Pós-Processamento (Regex)
 
-Configurações de Localizar e Substituir para o fatiador.
+💉 Configurações de Localizar e Substituir para o fatiador.
 
-### ⚡ Regra 1: Ajuste de Velocidade Z
+### 💉 Regra 1: Ajuste de Velocidade Z
 * **🔍 Achar:**
 ```text
 G1 Z.2 F9000
