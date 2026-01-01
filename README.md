@@ -13,9 +13,9 @@ Configurações de Localizar e Substituir para o fatiador.
 
 ### ⚡ Regra 1: Ajuste de Velocidade Z
 * **🔍 Achar:**
-* ```text
-* G1 Z.2 F9000
-* ```
+```text
+G1 Z.2 F9000
+```
 * **✏️ Substituir:**
 ```text
 ;YLU --\nG1 F12000\n;YLU --
