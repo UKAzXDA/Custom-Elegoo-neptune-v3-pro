@@ -68,7 +68,7 @@ M107                      ; Desliga fan
 
 **Padrão de nome do arquivo:**
 ```text
-{input_filename_base}_{print_time}_{filament_type[0]}.gcode
+{input_filename_base}_{filament_type[0]}_{print_time}.gcode
 ```
 
 ### 💾 Padrão GCODE atualizado:
