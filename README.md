@@ -60,8 +60,8 @@ M107                      ; Desliga fan
 | :--- | :--- |
 | **Saia (Skirt) - Voltas** | 0 (Desativado) |
 | **Tipo de Aba (Brim)** | Somente aba externa |
-| **Largura da Aba** | 2 mm |
-| **Espaçamento da Borda** | 0,05 mm |
+| **Largura da Aba** | 3 mm |
+| **Espaçamento da Borda** | 0,1 mm |
 | **Pontes grossas** | OFF |
 
 ### 💾 Configurações de Saída.
