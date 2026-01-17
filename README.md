@@ -61,50 +61,12 @@ M107                      ; Desliga fan
 | **Saia (Skirt) - Voltas** | 0 (Desativado) |
 | **Tipo de Aba (Brim)** | Somente aba externa |
 | **Largura da Aba** | 3 mm |
-| **Espaçamento da Borda** | 0,1 mm |
+| **Espaçamento da Borda** | 0,5 mm |
 | **Velocidade primeira camada** | 6 |
-| **Pontes grossas** | OFF |
 
 ### 💾 Configurações de Saída.
 
 **Padrão de nome do arquivo:**
 ```text
 {input_filename_base}_{filament_type[0]}_{print_time}.gcode
-```
-
-### 💾 Padrão GCODE atualizado:
-
-### ▶️ G-code de Início
-```gcode
-;ELEGOO NEPTUNE 4 / 4 PRO / 3 PRO
-M220 S100 ;Set the feed speed to 100%
-M221 S100 ;Set the flow rate to 100%
-M104 S140 ;Start heating extruder
-M190 S{first_layer_bed_temperature} ;Wait for the bed to reach print temp
-G90
-G28 ;home
-G1 Z10 F300
-G1 X67.5 Y0 F6000
-G1 Z0 F300
-M109 S{first_layer_temperature} ;Wait for extruder to reach print temp
-G92 E0 ;Reset Extruder
-G1 X67.5 Y0 Z0.4 F300 ;Move to start position
-G1 X167.5 E30 F400 ;Draw the first line
-G1 Z0.6 F120.0 ;Move to side a little
-G1 X162.5 F3000
-G92 E0 ;Reset Extruder
-```
-### ⏹️ G-code Final
-```gcode
-G91 ;Relative positioning
-G1 E-2 F2700 ;Retract a bit
-G1 E-2 Z0.2 F2400 ;Retract and raise Z
-G1 X5 Y5 F3000 ;Wipe out
-G1 Z2 ;Raise Z more
-G90 ;Absolute positioning
-G1 X0 Y[print_bed_max_y - 5] ; Present print
-M106 S0 ;Turn-off fan
-M104 S0 ;Turn-off hotend
-M140 S0 ;Turn-off bed
-M84 X Y E ;Disable all steppers but Z
 ```
