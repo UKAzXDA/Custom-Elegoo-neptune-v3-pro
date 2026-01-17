@@ -63,6 +63,7 @@ M107                      ; Desliga fan
 | **Largura da Aba** | 3 mm |
 | **Espaçamento da Borda** | 0,5 mm |
 | **Velocidade primeira camada** | 6 |
+| **Expansãod da primeira camada** | 0 mm |
 
 ### 💾 Configurações de Saída.
 
