@@ -64,6 +64,7 @@ M107                      ; Desliga fan
 | **Espaçamento da Borda** | 0,5 mm |
 | **Velocidade primeira camada** | 6 |
 | **Expansão da primeira camada** | 0 mm |
+| **Padrão de prenchimento** | Giroid |
 
 ### 💾 Configurações de Saída.
 
