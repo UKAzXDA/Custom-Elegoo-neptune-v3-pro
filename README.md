@@ -40,6 +40,7 @@ M109 S[first_layer_temperature]     ; wait for nozzle temp
 G1 Z2 F240                ; Move o bico para 2 mm acima da mesa
 G92 E0                    ; Zera o extrusor
 ;YLU ------------------------------------------------------------------
+
 ```
 ### ⏹️ G-code Final
 ```gcode
@@ -52,6 +53,7 @@ M84 X Y E                 ; Desabilita motores
 G4 S600                   ; Espera 10 min
 M107                      ; Desliga fan
 ;YLU ------------------------------------------------------------------
+
 ```
 
 ### 🧲 Abaixo estão os parâmetros de adesão à mesa utilizados neste perfil.
