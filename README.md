@@ -62,9 +62,8 @@ M107                      ; Desliga fan
 | **Tipo de Aba (Brim)** | Somente aba externa |
 | **Largura da Aba** | 3 mm |
 | **Espaçamento da Borda** | 0,5 mm |
-| **Velocidade primeira camada** | 6 |
+| **Velocidade primeira camada** | 5 |
 | **Expansão da primeira camada** | 0 mm |
-| **Padrão de prenchimento** | Giroid |
 
 ### 💾 Configurações de Saída.
 
