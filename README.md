@@ -2,7 +2,7 @@
 
 ## 🛠️ Pós-Processamento (Regex)
 
-| ALTURA PRIMEIRA CAMADA | 0,123 |
+| **Altura da primeira camada** | 0,123 |
 
 💉 Localizar e Substituir para o fatiador.
 
