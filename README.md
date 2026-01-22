@@ -1,7 +1,7 @@
 <img src="elegoo.webp">
 
 ## 🛠️ Pós-Processamento (Regex)
-
+| :--- | :--- |
 | **Altura da primeira camada** | 0,123 |
 
 💉 Localizar e Substituir para o fatiador.
