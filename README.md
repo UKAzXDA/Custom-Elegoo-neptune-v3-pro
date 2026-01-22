@@ -1,6 +1,7 @@
 <img src="elegoo.webp">
 
 ## 🛠️ Pós-Processamento (Regex)
+| Parâmetro | Valor |
 | :--- | :--- |
 | **Altura da primeira camada** | 0,123 |
 
