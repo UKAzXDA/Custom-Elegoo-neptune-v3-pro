@@ -24,7 +24,7 @@ G1 Z.123 F9000
 ```
 * **✏️ Substituir:**
 ```text
-;YLU --\nG1 Z0 F9000\n;G1 E1 F2400\nG4 S5\n;YLU --
+;YLU --\nG1 Z0 F9000\nG1 E1 F2400\nG4 S5\n;YLU --
 ```
 
 ### ▶️ G-code de Início
