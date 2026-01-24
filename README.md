@@ -53,7 +53,7 @@ M104 S0                   ; Desliga bico
 M106 S128                 ; Ligar fan 100%
 G1 X-2.5 F12000           ; Cabeçote para posição de garagem
 M84 X Y E                 ; Desabilita motores
-G4 S600                   ; Espera 10 min
+G4 S300                   ; Espera 5 min
 M107                      ; Desliga fan
 ;YLU ------------------------------------------------------------------
 
