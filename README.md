@@ -30,8 +30,8 @@ G1 Z.123 F9000
 ### ▶️ G-code de Início
 ```gcode
 ;YLU ------------------------------------------------------------------
-M220 S100 ;Set the feed speed to 100%
-M221 S100 ;Set the flow rate to 100%
+M220 S100                 ; Set the feed speed to 100%
+M221 S100                 ; Set the flow rate to 100%
 M107                      ; Desliga fan
 M104 S[first_layer_temperature] ; Aquecimento bico
 M140 S[first_layer_bed_temperature] ; Aquecimento mesa
