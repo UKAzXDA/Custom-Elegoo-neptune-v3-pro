@@ -6,7 +6,7 @@
 M220 S100                 ; Set the feed speed to 100%
 M221 S100                 ; Set the flow rate to 100%
 M107                      ; Desliga fan
-M104 S[first_layer_temperature] ; Aquecimento bico
+M104 S[first_layer_temperature]     ; Aquecimento bico
 M140 S[first_layer_bed_temperature] ; Aquecimento mesa
 G90                       ; Usa coordenadas absolutas
 M82                       ; Extrusora em modo relativo
