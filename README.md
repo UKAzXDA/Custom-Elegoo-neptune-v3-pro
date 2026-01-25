@@ -36,7 +36,7 @@ M107                      ; Desliga fan
 M104 S[first_layer_temperature] ; Aquecimento bico
 M140 S[first_layer_bed_temperature] ; Aquecimento mesa
 G90                       ; Usa coordenadas absolutas
-M83                       ; Extrusora em modo relativo
+M82                       ; Extrusora em modo relativo
 G28                       ; Homing de todos os eixos
 M420 S1                   ; Carrega a malha de nivelamento
 G1 X-2.5 F12000           ; Cabeçote para posição de garagem
