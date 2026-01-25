@@ -1,32 +1,5 @@
 <img src="elegoo.webp">
 
-## 🛠️ Pós-Processamento (Regex)
-| Parâmetro | Valor |
-| :--- | :--- |
-| **Altura da primeira camada** | 0,123 |
-
-💉 Localizar e Substituir para o fatiador.
-
-### 💉 Regra 1:
-* **🔍 Achar:**
-```text
-G1 Z.123 F9000
-```
-* **✏️ Substituir:**
-```text
-;YLU --\nG1 F12000\n;YLU --
-```
-
-### 💉 Regra 2:
-* **🔍 Achar:**
-```text
-;TYPE:Skirt/Brim
-```
-* **✏️ Substituir:**
-```text
-;YLU --\nG1 Z0 F9000\nG1 E1 F2400\nG4 S5\n;YLU --
-```
-
 ### ▶️ G-code de Início
 ```gcode
 ;YLU ------------------------------------------------------------------
@@ -59,22 +32,4 @@ G4 S300                   ; Espera 5 min
 M107                      ; Desliga fan
 ;YLU ------------------------------------------------------------------
 
-```
-
-### 🧲 Abaixo estão os parâmetros de adesão à mesa utilizados neste perfil.
-
-| Parâmetro | Valor |
-| :--- | :--- |
-| **Saia (Skirt) - Voltas** | 0 (Desativado) |
-| **Tipo de Aba (Brim)** | Somente aba externa |
-| **Largura da Aba** | 3 mm |
-| **Espaçamento da Borda** | 0,5 mm |
-| **Velocidade primeira camada** | 5 |
-| **Expansão da primeira camada** | 0 mm |
-
-### 💾 Configurações de Saída.
-
-**Padrão de nome do arquivo:**
-```text
-{input_filename_base}_{filament_type[0]}_{print_time}.gcode
 ```
