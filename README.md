@@ -53,5 +53,5 @@ G1 Z.001 F9000
 ```
 ## Subistituir:
 ```gcode
-;YLU --\nG1 Z.001 F9000\nG4 S5\n;YLU --
+;YLU --\nG1 Z0 F9000\nG4 S5\n;YLU --
 ```
