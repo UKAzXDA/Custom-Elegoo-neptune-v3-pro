@@ -35,7 +35,7 @@ M107                      ; Desliga fan
 ```
 ###  Nome de sainda do arquivo
 ```gcode
-{input_filename_base}_{filament_type[0]}_{print_time}.gcode
+{input_filename_base}_{print_time}.gcode
 ```
 ### 1. Alteração
 ## achar:
