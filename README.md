@@ -33,3 +33,25 @@ M107                      ; Desliga fan
 ;YLU ------------------------------------------------------------------
 
 ```
+###  Nome de sainda do arquivo
+```gcode
+{input_filename_base}_{filament_type[0]}_{print_time}.gcode
+```
+### 1. Alteração
+## achar:
+```gcode
+G1 Z.123 F9000
+```
+## Subistituir:
+```gcode
+;YLU --\nG1 F12000\n;YLU --
+```
+### 2. Alteração
+## Achar:
+```gcode
+;TYPE:Skirt/Brim
+```
+## Subistituir:
+```gcode
+;YLU --\nG1 Z0 F9000\nG4 S5\n;YLU --
+```
