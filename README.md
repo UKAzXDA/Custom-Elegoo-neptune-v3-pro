@@ -3,7 +3,7 @@
 ### ▶️ G-code de Início
 ```gcode
 ;YLU ------------------------------------------------------------------
-M92 E415                  ; Definir tanto de passos por mm E
+M92 E400                  ; Definir tanto de passos por mm E
 M220 S100                 ; Set the feed speed to 100%
 M221 S100                 ; Set the flow rate to 100%
 M107                      ; Desliga fan
