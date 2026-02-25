@@ -40,7 +40,7 @@ M107                      ; Desliga fan
 ### 1. Alteração
 ## achar:
 ```gcode
-G1 Z.001 F9000
+G1 Z.2 F9000
 ```
 ## Subistituir:
 ```gcode
@@ -53,5 +53,5 @@ G1 Z.001 F9000
 ```
 ## Subistituir:
 ```gcode
-;YLU --\nG1 Z0 F9000\nG4 S5\n;YLU --
+;YLU --\nG1 Z.2 F9000\nG4 S5\n;YLU --
 ```
